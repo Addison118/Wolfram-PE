@@ -1,0 +1,14 @@
+name: Wolfram-PE
+version: 1.0.0
+api: [2.0.0]
+author: AddisonPE/ZacHack
+description: Searches for Wolfram Alpha answers
+main: WolframPE\MainClass
+
+commands:
+  woa:
+    description: "wolfram command"
+    usage: "/wa <whatever question you have>"
+    permission: "wolfram.command.wa"
+    
+permissions:
